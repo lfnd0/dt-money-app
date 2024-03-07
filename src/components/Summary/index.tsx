@@ -1,5 +1,9 @@
-import { ArrowCircleDown, ArrowCircleUp, CurrencyDollar } from "@phosphor-icons/react";
-import { SummaryCard, SummaryContainer } from "./styles";
+import {
+  ArrowCircleDown,
+  ArrowCircleUp,
+  CurrencyDollar,
+} from '@phosphor-icons/react'
+import { SummaryCard, SummaryContainer } from './styles'
 
 export function Summary() {
   return (
