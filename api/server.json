@@ -10,11 +10,19 @@
     },
     {
       "id": 2,
-      "description": "Curso de C#",
+      "description": "Ignite C#",
       "type": "outcome",
-      "category": "Compra",
+      "category": "Educação",
       "price": 1000,
       "createdAt": "2024-03-10T21:52:36.541Z"
+    },
+    {
+      "id": 3,
+      "description": "Duna 2",
+      "type": "outcome",
+      "category": "Lazer",
+      "price": 25,
+      "createdAt": "2024-03-09T14:01:26.121Z"
     }
   ]
 }
