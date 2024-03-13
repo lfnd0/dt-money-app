@@ -23,6 +23,22 @@
       "category": "Lazer",
       "price": 25,
       "createdAt": "2024-03-09T14:01:26.121Z"
+    },
+    {
+      "description": "Desenvolvimento de aplicativo mobile",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-03-13T13:57:10.297Z",
+      "id": 4
+    },
+    {
+      "description": "Almoço",
+      "price": 50,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-03-13T14:16:15.144Z",
+      "id": 5
     }
   ]
 }
