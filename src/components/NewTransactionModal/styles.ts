@@ -39,7 +39,7 @@ export const Content = styled(Dialog.Content)`
     }
 
     button[type='submit'] {
-      height: 58px;
+      height: 50px;
       border: 0;
       background: ${(props) => props.theme['green-500']};
       color: ${(props) => props.theme.white};
@@ -81,7 +81,7 @@ export const TransactionType = styled(RadioGroup.Root)`
 `
 
 interface TransactionTypeButtonProps {
-  variant: 'income' | 'outcome'
+  $variant: 'income' | 'outcome'
 }
 
 export const TransactionTypeButton = styled(
@@ -100,7 +100,7 @@ export const TransactionTypeButton = styled(
 
   svg {
     color: ${(props) =>
-      props.variant === 'income'
+      props.$variant === 'income'
         ? props.theme['green-300']
         : props.theme['red-300']};
   }
@@ -113,7 +113,7 @@ export const TransactionTypeButton = styled(
   &[data-state='checked'] {
     color: ${(props) => props.theme.white};
     background: ${(props) =>
-      props.variant === 'income'
+      props.$variant === 'income'
         ? props.theme['green-500']
         : props.theme['red-500']};
 
