@@ -1,4 +1,5 @@
-import { ReactNode, createContext, useEffect, useState } from 'react'
+import { ReactNode, useEffect, useState } from 'react'
+import { createContext } from 'use-context-selector'
 import { api } from '../lib/axios'
 
 export interface Transaction {
@@ -43,6 +44,7 @@ export function TransactionsProvider({ children }: TransactionProviderProps) {
 
     setTransactions(response.data)
   }
+
   async function createTransaction(data: CreateTransactionInput) {
     const { description, price, category, type } = data
 
